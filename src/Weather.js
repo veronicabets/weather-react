@@ -13,5 +13,5 @@ export default function Weather(props) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${units}`;
 
   axios.get(apiUrl).then(handleResponse);
-  return <Hearts color="#00BFFF" height={80} width={80} />;
+  return <Hearts color="pink" height={80} width={80} />;
 }
