@@ -14,7 +14,7 @@ export default function App() {
             <Weather time="11:00" humidity="89%" wind="3 km/h" />
           </div>
           <p className="source-code">
-            <a href="https://github.com/veronicabets/shecodes-weather-app">
+            <a href="https://github.com/veronicabets/weather-react">
               Open-source code
             </a>{" "}
             by veronicabets
