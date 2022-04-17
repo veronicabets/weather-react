@@ -1,16 +1,26 @@
 import React from "react";
-import "./App.css";
-import Weather from "./Weather";
 
-function App() {
+import Cities from "./Cities";
+import Weather from "./Weather";
+import "./App.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World !</h1>
-        <Weather city="Toronto" />
-      </header>
+      <div className="container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
+            <Cities />
+            <Weather time="11:00" humidity="89%" wind="3 km/h" />
+          </div>
+          <p className="source-code">
+            <a href="https://github.com/veronicabets/shecodes-weather-app">
+              Open-source code
+            </a>{" "}
+            by veronicabets
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;

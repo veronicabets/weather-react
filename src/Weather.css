@@ -1,0 +1,84 @@
+.Weather {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 19px;
+  opacity: 0.7;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+
+small {
+  font-size: 12px;
+}
+
+.float-left {
+  float: left;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.weather-temperature strong {
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+  color: #4162a4;
+}
+
+.weather-temperature small {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  top: -22px;
+}
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #4162a4;
+}
+
+.weather-forecast-temp {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #4162a4;
+}
+
+.weather-forecast-temp-low {
+  opacity: 0.7;
+  color: #000000;
+}
