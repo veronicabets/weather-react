@@ -6,6 +6,7 @@ body {
 
 a {
   text-decoration: none;
+  margin-left: 4px;
 }
 
 .weather-app-wrapper {

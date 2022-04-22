@@ -1,6 +1,5 @@
 import React from "react";
 
-import Cities from "./Cities";
 import Weather from "./Weather";
 import "./App.css";
 
@@ -10,8 +9,7 @@ export default function App() {
       <div className="container">
         <div className="weather-app-wrapper">
           <div className="weather-app">
-            <Cities />
-            <Weather time="11:00" humidity="89%" wind="3 km/h" />
+            <Weather defaultCity="Toronto" />
           </div>
           <p className="source-code">
             <a href="https://github.com/veronicabets/weather-react">

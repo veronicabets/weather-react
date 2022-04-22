@@ -1,5 +1,10 @@
-.Weather {
-  font-family: "Roboto", sans-serif;
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  font-weight: 100;
+  color: #4162a4;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 ul {
@@ -24,6 +29,46 @@ a {
 
 small {
   font-size: 12px;
+}
+
+.Weather {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-control {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  width: 235px;
+}
+
+.btn-primary {
+  background-color: #6b8cce;
+  border-color: #6b8cce;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  width: 70px;
+}
+
+.btn-primary:hover {
+  background-color: #0c3483;
+  border-color: #0c3483;
+}
+
+.location-button {
+  background-color: #91c788;
+  border-color: #91c788;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  width: 100px;
+}
+
+.location-button:hover {
+  background-color: #406343;
+  border-color: #406343;
 }
 
 .float-left {
