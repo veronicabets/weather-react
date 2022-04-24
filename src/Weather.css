@@ -31,10 +31,16 @@ small {
   font-size: 12px;
 }
 
+canvas {
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+}
 .Weather {
   font-family: "Roboto", sans-serif;
 }
-
 .form-control {
   font-size: 12px;
   font-family: "Roboto", sans-serif;
@@ -77,12 +83,6 @@ small {
 
 .overview {
   margin-bottom: 20px;
-}
-
-.weather-temperature img {
-  margin-right: 5px;
-  height: 70px;
-  width: 70px;
 }
 
 .weather-temperature strong {
