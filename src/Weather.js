@@ -58,15 +58,6 @@ export default function Weather(props) {
                 className="btn btn-primary w-150"
               />
             </div>
-            <div className="col-2">
-              <button
-                type="button"
-                className="btn btn-success location-button"
-                id="get-location-button"
-              >
-                Current location
-              </button>
-            </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
