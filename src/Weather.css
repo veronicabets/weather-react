@@ -37,6 +37,7 @@ canvas {
   height: 64px;
   width: 64px;
   display: inline-block;
+  opacity: 0.7;
 }
 .Weather {
   font-family: "Roboto", sans-serif;
