@@ -34,11 +34,10 @@ small {
 canvas {
   margin-right: 10px;
   margin-top: 5px;
-  height: 64px;
-  width: 64px;
   display: inline-block;
   opacity: 0.7;
 }
+
 .Weather {
   font-family: "Roboto", sans-serif;
 }
