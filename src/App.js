@@ -12,7 +12,11 @@ export default function App() {
             <Weather defaultCity="Toronto" />
           </div>
           <p className="source-code">
-            <a href="https://github.com/veronicabets/weather-react">
+            <a
+              href="https://github.com/veronicabets/weather-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Open-source code
             </a>{" "}
             by veronicabets
